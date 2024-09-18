@@ -37,12 +37,14 @@
 
   <main>
     <section id="intro">
+    <section id="intro">
       <h2>Введение в Frontend разработку</h2>
       <p>Frontend разработка отвечает за создание интерфейса пользовательской части веб-сайта или веб-приложения. Она
         включает в себя работу с HTML, CSS и JavaScript.</p>
     </section>
     <hr>
     <hr>
+    <section id="language">
     <section id="language">
       <h2>Языки Frontend разработки</h2>
       <p>Основными языками Frontend разработки являются:</p>
@@ -59,6 +61,8 @@
     <hr>
 
     <section id="tools">
+
+    <section id="tools">
       <h2>Инструменты Frontend разработки</h2>
       <ol>
         <li><b>Visual Studio Code</b> - мощный редактор кода с поддержкой множества языков и плагинов</li>
@@ -69,6 +73,117 @@
     </section>
     <hr>
     <hr>
+
+    <section>
+      <h2>Сравнительная таблица навыков Frontend разработчика</h2>
+      <table width="700" border="1" cellpadding="5">
+        <thead>
+          <tr>
+            <th colspan="2">Навыки</th>
+            <th>Junior</th>
+            <th>Middle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="6">HTML</th>
+            <td>Вёрстка основных элементов</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Соблюдение семантики</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Доступность сайта</td>
+            <td>базовые знания</td>
+            <td>продвинутые знания</td>
+          </tr>
+          <tr>
+            <td>Шаблонизаторы (Pug, Twig)</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Микроразметка</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Вёрстка под React (JSX и CSS-in-JS)</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <th rowspan="6">CSS</th>
+            <td>Сетки (Flex, Grid)</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Работа со шрифтами</td>
+            <td>вариативные шрифты</td>
+            <td>оптимизация шрифтов</td>
+          </tr>
+          <tr>
+            <td>Препроцессоры SASS, Less, PostCSS</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Методологии БЭМ</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Фреймворк Bootstrap</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>Фреймворк Tailwind CSS</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <th rowspan="6">JavaScript</th>
+            <td>Базовый синтаксис и конструкции</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>TypeScript</td>
+            <td>&#9745;</td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>StateManagement (Redux, Mobx)</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+          <tr>
+            <td>SSR (Next.js)</td>
+            <td><big>&#9633;</big></td>
+            <td>&#9745;</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th colspan="2">Итого</th>
+          <th>опыт < 1 года</th>
+          <th>опыт 1 - 3 года</th>
+        </tfoot>
+      </table>
+    </section>
+    <hr>
+    <hr>
+
 
     <section>
       <h2>Сравнительная таблица навыков Frontend разработчика</h2>
@@ -203,8 +318,10 @@
           JavaScript (Node.js).</p>
         <cite>https://ru.wikipedia.org/wiki/Фронтенд</cite>
         <div><a href="#top">Наверх</a></div>
+        <div><a href="#top">Наверх</a></div>
       </article>
       <hr>
+
 
       <article>
         <h3>Фронтенд-разработка: ключевые технологии и понятия</h3>
@@ -291,6 +408,8 @@
           <li>При использовании внутренней таблицы стилей CSS-код размещается прямо в теле тега
             <code>&lt;head&gt;</code> конкретной .html-страницы.
           </li>
+            <code>&lt;head&gt;</code> конкретной .html-страницы.
+          </li>
           <li>Под встроенным стилем подразумевается прописывание CSS в html-коде непосредственно того элемента, который
             нужно стилизовать.</li>
         </ul>
@@ -305,6 +424,8 @@
           многое другое. С помощью JavaScript веб-сайт можно наделить разными функциональностями, что не достижимо
           только с помощью HTML и CSS. Веб-страницы, разработанные с помощью JavaScript, реагируют на действия
           пользователей и обновляются динамически. Благодаря JavaScript этот процесс не требует перезагрузки страниц,
+          чтобы отобразить изменения.
+        </p>
           чтобы отобразить изменения.
         </p>
         <p><strong>Фреймворки и библиотеки JavaScript и зачем они нам нужны</strong><br>
@@ -326,9 +447,89 @@
 
         <cite>https://habr.com/ru/companies/otus/articles/674748/</cite>
         <div><a href="#top">Наверх</a></div>
+        <div><a href="#top">Наверх</a></div>
       </article>
 
+
       <hr>
+      <article>
+        <h3>What Does a Front-End Developer Do? Complete Guide to the Front-End Developer Profession</h3>
+        <p>A front-end developer is a type of software developer who specializes in creating and designing the user
+          interface (UI) and user experience (UX) of websites and web applications. The primary responsibility of a
+          front-end developer is to ensure that the visual and interactive aspects of a website or application are
+          user-friendly, aesthetically pleasing, and functionally efficient.</p>
+        <p>Front-end developers work with various technologies, tools, and languages, including:
+        <ol>
+          <li>HTML (HyperText Markup Language): The standard markup language used to create the structure and layout of
+            web pages.</li>
+          <li>CSS (Cascading Style Sheets): A stylesheet language used to control the presentation, formatting, and
+            appearance of web pages, such as colors, fonts, and layout.</li>
+          <li>JavaScript: A programming language that allows developers to add interactivity, animations, and other
+            dynamic elements to websites and web applications.</li>
+        </ol>
+        </p>
+        <p>Front-end developers may also use libraries and frameworks, such as React, Angular, or Vue.js, to streamline
+          their work and create more sophisticated and interactive UIs. Additionally, they often collaborate with
+          back-end developers, who are responsible for the server-side logic and data management, to ensure seamless
+          integration between the front-end and back-end components of a web application or website.</p>
+
+        <h4>HTML, CSS, & JavaScript:</h4>
+        <p>A front-end developer architects and develops websites and applications using web technologies (i.e., HTML,
+          CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation input for non-web platform
+          environments (i.e., React Native).</p>
+        <img src="/images/what-is-front-end-dev.png" alt="what-is-front-end-dev" width="600">
+        <p>Typically, a person enters into the field of front-end development by learning to develop HTML, CSS, and
+          JavaScript which commonly runs in a web browser but can also run in a headless browser, or as compilation
+          input for a native runtime environment. These four run times scenarios are explained below.</p>
+
+        <h4>Web Browsers (most common)</h4>
+        <p>A web browser is software used to retrieve, present, and traverse information on the WWW. Typically, browsers
+          run on a desktop or laptop computer, tablet, or phone, but as of late a browser can be found on just about
+          anything (i.e, on a fridge, in cars, etc.).</p>
+        <p>The most common web browsers are (shown in order of most used first):</p>
+        <ul>
+          <li>Chrome</li>
+          <li>Safari</li>
+          <li>Microsoft Edge</li>
+          <li>Firefox</li>
+        </ul>
+
+        <h4>Headless Browsers</h4>
+        <p>Headless browsers are a web browser without a graphical user interface that can be controlled from a command
+          line interface programmatically for the purpose of web page automation (e.g., functional testing, scraping,
+          unit testing, etc.). Think of headless browsers as a browser that you can run from the command line that can
+          retrieve and traverse web pages.</p>
+        <p>The most common headless browsers are:</p>
+        <ul>
+          <li>Headless Chromium</li>
+          <li>Zombie</li>
+          <li>slimerjs</li>
+        </ul>
+
+        <h4>Webviews</h4>
+        <p>Webviews are used by a native OS, in a native application, to run web pages. Think of a webview like an
+          iframe or a single tab from a web browser that is embedded in a native application running on a device (e.g.,
+          iOS, android, windows).</p>
+        <p>The most common solutions for webview development are:</p>
+        <ul>
+          <li>Electron (typically used for desktop apps)</li>
+          <li>Tauri.js</li>
+          <li>Cordova (typically for native phone/tablet apps)</li>
+          <li>NW.js (typically used for desktop apps)</li>
+        </ul>
+
+        <h4>Native from Web Tech</h4>
+        <p>Eventually, what is learned from web browser development can be used by front-end developers to craft code
+          for environments that are not fueled by a browser engine. As of late, development environments are being
+          dreamed up that use web technologies (e.g., CSS and JavaScript), without web engines, to create native
+          applications.</p>
+        <p>Some examples of these environments are:</p>
+        <ul>
+          <li>Flutter</li>
+          <li>React Native</li>
+        </ul>
+        <div><a href="#top">Наверх</a></div>
+      </article>
       <article>
         <h3>What Does a Front-End Developer Do? Complete Guide to the Front-End Developer Profession</h3>
         <p>A front-end developer is a type of software developer who specializes in creating and designing the user
